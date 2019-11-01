@@ -1,0 +1,16 @@
+var myString = " Heavy metal's cool"
+console.log(myString.length)
+console.log(myString.toLowerCase())
+console.log(myString.toUpperCase())
+console.log(myString.repeat(3))
+
+console.log(myString.endsWith("a"))
+
+console.log(myString.charAt(4))
+console.log(myString.includes("Heavy"))
+//console.log(myString.replace("Heavy","Dada"))
+console.log(myString.split(" "))
+console.log(myString.startsWith("H"))
+console.log(myString.substr(5,5))
+console.log(myString.substr(0,5))
+console.log(myString.substr(6,3))
